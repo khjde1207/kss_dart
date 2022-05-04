@@ -9,16 +9,16 @@
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  */
-class ChunkWithIndex {
-  ChunkWithIndex({
-    required this.start,
-    required this.text,
-  });
-  int start;
-  String text;
 
-  getStart() => start;
-  setStart(int v) => start = v;
-  getText() => text;
-  setText(String v) => text = v;
+class Stats {
+  static int DEFAULT = 0;
+  static int DA = 1;
+  static int YO = 2;
+  static int JYO = 3;
+  static int HAM = 4;
+  static int UM = 5;
+  static int SB = 6;
+  static int COMMON = 7;
+  static int _value = DEFAULT;
+  static int getValue() => _value;
 }

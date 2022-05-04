@@ -9,16 +9,8 @@
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  */
-class ChunkWithIndex {
-  ChunkWithIndex({
-    required this.start,
-    required this.text,
-  });
-  int start;
-  String text;
-
-  getStart() => start;
-  setStart(int v) => start = v;
-  getText() => text;
-  setText(String v) => text = v;
+class Utils {
+  static bool intToBool(int input) {
+    return input >= 1;
+  }
 }
