@@ -3,10 +3,12 @@
 
 <img alt="latest version" src="https://img.shields.io/badge/latest%20version-2.6.1-blue.svg"/> <a href="https://github.com/sangdee/kss-java/blob/master/LICENSE"><img alt="BSD 3-Clause" src="https://img.shields.io/badge/license-BSD%203%20Clause-blue.svg"/></a>
 
-
 Split Korean text into sentences using heuristic algorithm.
 
+[pub.dev link](https://pub.dev/packages/kss_dart/install) 
+
 <br><br>
+
 
 # example
 <p align='center' style="height:800px">

@@ -1,7 +1,7 @@
 name: kss_dart
-description: A new Flutter package project.
-version: 2.6.1
-homepage:
+description: Split Korean text into sentences using heuristic algorithm.
+version: 2.6.2
+homepage: https://github.com/khjde1207/kss_dart
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
