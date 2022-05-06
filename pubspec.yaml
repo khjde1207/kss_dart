@@ -1,6 +1,6 @@
 name: kss_dart
 description: Split Korean text into sentences using heuristic algorithm.
-version: 2.6.2
+version: 2.6.3
 homepage: https://github.com/khjde1207/kss_dart
 
 environment:

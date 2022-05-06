@@ -33,8 +33,7 @@ class Backend {
         text.substring(lastQuotePos + 1), useHeuristic, useQuotesBracketsProcessing, maxRecoverStep, maxRecoverLength, recoverStep, false);
 
     String afterFirst = afterQuote.isNotEmpty ? afterQuote.first : "";
-
-    afterQuote = afterQuote.length == 1 ? [] : afterQuote.getRange(1, afterQuote.length - 1).toList();
+    afterQuote = afterQuote.length == 1 || afterQuote.isEmpty ? [] : afterQuote.getRange(1, afterQuote.length - 1).toList();
 
     List<String> middleQuote = [];
     middleQuote.add(beforeLast + quoteType + afterFirst);
